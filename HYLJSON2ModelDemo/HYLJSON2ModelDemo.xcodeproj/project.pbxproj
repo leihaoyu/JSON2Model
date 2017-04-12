@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10F062701E9DBDB700A264B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F0626F1E9DBDB700A264B6 /* main.m */; };
+		10F062731E9DBDB700A264B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F062721E9DBDB700A264B6 /* AppDelegate.m */; };
+		10F062791E9DBDB700A264B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F062771E9DBDB700A264B6 /* Main.storyboard */; };
+		10F0627B1E9DBDB700A264B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F0627A1E9DBDB700A264B6 /* Assets.xcassets */; };
+		10F0627E1E9DBDB700A264B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F0627C1E9DBDB700A264B6 /* LaunchScreen.storyboard */; };
+		10F062881E9DCA2700A264B6 /* HYLMetaEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F062871E9DCA2700A264B6 /* HYLMetaEntity.m */; };
+		10F0628B1E9DCAA000A264B6 /* HYLSigleDicTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F0628A1E9DCAA000A264B6 /* HYLSigleDicTVC.m */; };
+		10F062921E9DCC8B00A264B6 /* HYLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F062911E9DCC8B00A264B6 /* HYLPerson.m */; };
+		10F062961E9DCFA800A264B6 /* HYLDicContainsDicTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F062951E9DCFA800A264B6 /* HYLDicContainsDicTVC.m */; };
+		10F062991E9DD19500A264B6 /* HYLAdult.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F062981E9DD19500A264B6 /* HYLAdult.m */; };
+		10F0629C1E9DD4AC00A264B6 /* HYLDogTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F0629B1E9DD4AC00A264B6 /* HYLDogTVC.m */; };
+		10F0629F1E9DD4E500A264B6 /* HYLChildTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F0629E1E9DD4E500A264B6 /* HYLChildTVC.m */; };
+		10F062A21E9DD83900A264B6 /* NSMutableArray+HYLEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F062A11E9DD83900A264B6 /* NSMutableArray+HYLEntity.m */; };
+		10F062A71E9DF81B00A264B6 /* HYLDicContainsArrayTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F062A61E9DF81B00A264B6 /* HYLDicContainsArrayTVC.m */; };
+		10F062AA1E9DF89100A264B6 /* HYLRichAdult.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F062A91E9DF89100A264B6 /* HYLRichAdult.m */; };
+		10F062AD1E9DFA6F00A264B6 /* HYLDisplayArrayTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F062AC1E9DFA6F00A264B6 /* HYLDisplayArrayTVC.m */; };
+		10F062B01E9DFDBA00A264B6 /* HYLSingleArrayTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F062AF1E9DFDBA00A264B6 /* HYLSingleArrayTVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10F0626B1E9DBDB700A264B6 /* HYLJSON2ModelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYLJSON2ModelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F0626F1E9DBDB700A264B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10F062711E9DBDB700A264B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10F062721E9DBDB700A264B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10F062781E9DBDB700A264B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10F0627A1E9DBDB700A264B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10F0627D1E9DBDB700A264B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10F0627F1E9DBDB700A264B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10F062861E9DCA2700A264B6 /* HYLMetaEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLMetaEntity.h; sourceTree = "<group>"; };
+		10F062871E9DCA2700A264B6 /* HYLMetaEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLMetaEntity.m; sourceTree = "<group>"; };
+		10F062891E9DCAA000A264B6 /* HYLSigleDicTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLSigleDicTVC.h; sourceTree = "<group>"; };
+		10F0628A1E9DCAA000A264B6 /* HYLSigleDicTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLSigleDicTVC.m; sourceTree = "<group>"; };
+		10F062901E9DCC8B00A264B6 /* HYLPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLPerson.h; sourceTree = "<group>"; };
+		10F062911E9DCC8B00A264B6 /* HYLPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLPerson.m; sourceTree = "<group>"; };
+		10F062941E9DCFA800A264B6 /* HYLDicContainsDicTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLDicContainsDicTVC.h; sourceTree = "<group>"; };
+		10F062951E9DCFA800A264B6 /* HYLDicContainsDicTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLDicContainsDicTVC.m; sourceTree = "<group>"; };
+		10F062971E9DD19500A264B6 /* HYLAdult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLAdult.h; sourceTree = "<group>"; };
+		10F062981E9DD19500A264B6 /* HYLAdult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLAdult.m; sourceTree = "<group>"; };
+		10F0629A1E9DD4AC00A264B6 /* HYLDogTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLDogTVC.h; sourceTree = "<group>"; };
+		10F0629B1E9DD4AC00A264B6 /* HYLDogTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLDogTVC.m; sourceTree = "<group>"; };
+		10F0629D1E9DD4E500A264B6 /* HYLChildTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLChildTVC.h; sourceTree = "<group>"; };
+		10F0629E1E9DD4E500A264B6 /* HYLChildTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLChildTVC.m; sourceTree = "<group>"; };
+		10F062A01E9DD83900A264B6 /* NSMutableArray+HYLEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+HYLEntity.h"; sourceTree = "<group>"; };
+		10F062A11E9DD83900A264B6 /* NSMutableArray+HYLEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+HYLEntity.m"; sourceTree = "<group>"; };
+		10F062A51E9DF81B00A264B6 /* HYLDicContainsArrayTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLDicContainsArrayTVC.h; sourceTree = "<group>"; };
+		10F062A61E9DF81B00A264B6 /* HYLDicContainsArrayTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLDicContainsArrayTVC.m; sourceTree = "<group>"; };
+		10F062A81E9DF89100A264B6 /* HYLRichAdult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLRichAdult.h; sourceTree = "<group>"; };
+		10F062A91E9DF89100A264B6 /* HYLRichAdult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLRichAdult.m; sourceTree = "<group>"; };
+		10F062AB1E9DFA6F00A264B6 /* HYLDisplayArrayTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLDisplayArrayTVC.h; sourceTree = "<group>"; };
+		10F062AC1E9DFA6F00A264B6 /* HYLDisplayArrayTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLDisplayArrayTVC.m; sourceTree = "<group>"; };
+		10F062AE1E9DFDBA00A264B6 /* HYLSingleArrayTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLSingleArrayTVC.h; sourceTree = "<group>"; };
+		10F062AF1E9DFDBA00A264B6 /* HYLSingleArrayTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLSingleArrayTVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10F062681E9DBDB700A264B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10F062621E9DBDB700A264B6 = {
+			isa = PBXGroup;
+			children = (
+				10F0626D1E9DBDB700A264B6 /* HYLJSON2ModelDemo */,
+				10F0626C1E9DBDB700A264B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10F0626C1E9DBDB700A264B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10F0626B1E9DBDB700A264B6 /* HYLJSON2ModelDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10F0626D1E9DBDB700A264B6 /* HYLJSON2ModelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				10F062851E9DC9CB00A264B6 /* JSON2Model */,
+				10F062711E9DBDB700A264B6 /* AppDelegate.h */,
+				10F062721E9DBDB700A264B6 /* AppDelegate.m */,
+				10F0628C1E9DCB5600A264B6 /* SingleDictionary */,
+				10F062931E9DCF0100A264B6 /* DicContainsDic */,
+				10F062A31E9DF4E600A264B6 /* DicContainsArray */,
+				10F062A41E9DF5A700A264B6 /* SingleArray */,
+				10F062771E9DBDB700A264B6 /* Main.storyboard */,
+				10F0627A1E9DBDB700A264B6 /* Assets.xcassets */,
+				10F0627C1E9DBDB700A264B6 /* LaunchScreen.storyboard */,
+				10F0627F1E9DBDB700A264B6 /* Info.plist */,
+				10F0626E1E9DBDB700A264B6 /* Supporting Files */,
+			);
+			path = HYLJSON2ModelDemo;
+			sourceTree = "<group>";
+		};
+		10F0626E1E9DBDB700A264B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10F0626F1E9DBDB700A264B6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10F062851E9DC9CB00A264B6 /* JSON2Model */ = {
+			isa = PBXGroup;
+			children = (
+				10F062861E9DCA2700A264B6 /* HYLMetaEntity.h */,
+				10F062871E9DCA2700A264B6 /* HYLMetaEntity.m */,
+				10F062A01E9DD83900A264B6 /* NSMutableArray+HYLEntity.h */,
+				10F062A11E9DD83900A264B6 /* NSMutableArray+HYLEntity.m */,
+			);
+			path = JSON2Model;
+			sourceTree = "<group>";
+		};
+		10F0628C1E9DCB5600A264B6 /* SingleDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				10F062891E9DCAA000A264B6 /* HYLSigleDicTVC.h */,
+				10F0628A1E9DCAA000A264B6 /* HYLSigleDicTVC.m */,
+				10F062901E9DCC8B00A264B6 /* HYLPerson.h */,
+				10F062911E9DCC8B00A264B6 /* HYLPerson.m */,
+			);
+			path = SingleDictionary;
+			sourceTree = "<group>";
+		};
+		10F062931E9DCF0100A264B6 /* DicContainsDic */ = {
+			isa = PBXGroup;
+			children = (
+				10F062941E9DCFA800A264B6 /* HYLDicContainsDicTVC.h */,
+				10F062951E9DCFA800A264B6 /* HYLDicContainsDicTVC.m */,
+				10F062971E9DD19500A264B6 /* HYLAdult.h */,
+				10F062981E9DD19500A264B6 /* HYLAdult.m */,
+				10F0629A1E9DD4AC00A264B6 /* HYLDogTVC.h */,
+				10F0629B1E9DD4AC00A264B6 /* HYLDogTVC.m */,
+				10F0629D1E9DD4E500A264B6 /* HYLChildTVC.h */,
+				10F0629E1E9DD4E500A264B6 /* HYLChildTVC.m */,
+			);
+			path = DicContainsDic;
+			sourceTree = "<group>";
+		};
+		10F062A31E9DF4E600A264B6 /* DicContainsArray */ = {
+			isa = PBXGroup;
+			children = (
+				10F062A51E9DF81B00A264B6 /* HYLDicContainsArrayTVC.h */,
+				10F062A61E9DF81B00A264B6 /* HYLDicContainsArrayTVC.m */,
+				10F062A81E9DF89100A264B6 /* HYLRichAdult.h */,
+				10F062A91E9DF89100A264B6 /* HYLRichAdult.m */,
+				10F062AB1E9DFA6F00A264B6 /* HYLDisplayArrayTVC.h */,
+				10F062AC1E9DFA6F00A264B6 /* HYLDisplayArrayTVC.m */,
+			);
+			path = DicContainsArray;
+			sourceTree = "<group>";
+		};
+		10F062A41E9DF5A700A264B6 /* SingleArray */ = {
+			isa = PBXGroup;
+			children = (
+				10F062AE1E9DFDBA00A264B6 /* HYLSingleArrayTVC.h */,
+				10F062AF1E9DFDBA00A264B6 /* HYLSingleArrayTVC.m */,
+			);
+			path = SingleArray;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10F0626A1E9DBDB700A264B6 /* HYLJSON2ModelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10F062821E9DBDB700A264B6 /* Build configuration list for PBXNativeTarget "HYLJSON2ModelDemo" */;
+			buildPhases = (
+				10F062671E9DBDB700A264B6 /* Sources */,
+				10F062681E9DBDB700A264B6 /* Frameworks */,
+				10F062691E9DBDB700A264B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYLJSON2ModelDemo;
+			productName = HYLJSON2ModelDemo;
+			productReference = 10F0626B1E9DBDB700A264B6 /* HYLJSON2ModelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10F062631E9DBDB700A264B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HYL;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HYL;
+				TargetAttributes = {
+					10F0626A1E9DBDB700A264B6 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 3WA4Q9D2GD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 10F062661E9DBDB700A264B6 /* Build configuration list for PBXProject "HYLJSON2ModelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10F062621E9DBDB700A264B6;
+			productRefGroup = 10F0626C1E9DBDB700A264B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10F0626A1E9DBDB700A264B6 /* HYLJSON2ModelDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10F062691E9DBDB700A264B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F0627E1E9DBDB700A264B6 /* LaunchScreen.storyboard in Resources */,
+				10F0627B1E9DBDB700A264B6 /* Assets.xcassets in Resources */,
+				10F062791E9DBDB700A264B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10F062671E9DBDB700A264B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F0629F1E9DD4E500A264B6 /* HYLChildTVC.m in Sources */,
+				10F062731E9DBDB700A264B6 /* AppDelegate.m in Sources */,
+				10F062AA1E9DF89100A264B6 /* HYLRichAdult.m in Sources */,
+				10F0628B1E9DCAA000A264B6 /* HYLSigleDicTVC.m in Sources */,
+				10F0629C1E9DD4AC00A264B6 /* HYLDogTVC.m in Sources */,
+				10F062B01E9DFDBA00A264B6 /* HYLSingleArrayTVC.m in Sources */,
+				10F062A21E9DD83900A264B6 /* NSMutableArray+HYLEntity.m in Sources */,
+				10F062921E9DCC8B00A264B6 /* HYLPerson.m in Sources */,
+				10F062AD1E9DFA6F00A264B6 /* HYLDisplayArrayTVC.m in Sources */,
+				10F062881E9DCA2700A264B6 /* HYLMetaEntity.m in Sources */,
+				10F062961E9DCFA800A264B6 /* HYLDicContainsDicTVC.m in Sources */,
+				10F062A71E9DF81B00A264B6 /* HYLDicContainsArrayTVC.m in Sources */,
+				10F062701E9DBDB700A264B6 /* main.m in Sources */,
+				10F062991E9DD19500A264B6 /* HYLAdult.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10F062771E9DBDB700A264B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10F062781E9DBDB700A264B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10F0627C1E9DBDB700A264B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10F0627D1E9DBDB700A264B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10F062801E9DBDB700A264B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10F062811E9DBDB700A264B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10F062831E9DBDB700A264B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3WA4Q9D2GD;
+				INFOPLIST_FILE = HYLJSON2ModelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HYL.HYLJSON2ModelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10F062841E9DBDB700A264B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3WA4Q9D2GD;
+				INFOPLIST_FILE = HYLJSON2ModelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HYL.HYLJSON2ModelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10F062661E9DBDB700A264B6 /* Build configuration list for PBXProject "HYLJSON2ModelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F062801E9DBDB700A264B6 /* Debug */,
+				10F062811E9DBDB700A264B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10F062821E9DBDB700A264B6 /* Build configuration list for PBXNativeTarget "HYLJSON2ModelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F062831E9DBDB700A264B6 /* Debug */,
+				10F062841E9DBDB700A264B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10F062631E9DBDB700A264B6 /* Project object */;
+}
