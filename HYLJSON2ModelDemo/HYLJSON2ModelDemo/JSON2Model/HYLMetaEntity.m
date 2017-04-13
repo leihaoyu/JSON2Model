@@ -104,10 +104,8 @@ static void processSetObject(NSMutableDictionary *store, id obj, NSString *key){
             } else {
                 [muArr addObject:object];
             }
-            
         }
         [store setObject:muArr forKey:key];
-        
     }
     else{
        
